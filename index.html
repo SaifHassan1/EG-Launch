@@ -94,7 +94,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:1000;padding:0 5%;height:68px;
             margin-bottom:1.4rem;background:rgba(245,158,11,.1);
             border:1px solid rgba(245,158,11,.3);border-radius:50px;
             font-size:.82rem;color:var(--accent)}
-.hero-badge::before{content:'✦'}
+  
 .hero h1{font-family:'Tajawal',sans-serif;
          font-size:clamp(2rem,4.5vw,3.4rem);font-weight:900;line-height:1.2;margin-bottom:1.1rem}
 .hero h1 span{background:linear-gradient(135deg,var(--cyan),var(--accent));
@@ -347,10 +347,10 @@ footer{background:rgba(5,14,31,.97);border-top:1px solid var(--gb);
     <li><a href="#portfolio">أعمالنا</a></li>
     <li><a href="#pricing">الباقات</a></li>
     <li><a href="#contact">تواصل معنا</a></li>
-    <li><a href="#login" class="nav-cta">ابدأ الآن</a></li>
+    <li><a href="#login" class="nav-cta">إبدأ الآن</a></li>
   </ul>
   <div style="display:flex;gap:.8rem;align-items:center">
-    <button class="lang-btn" onclick="toggleLang()">EN / عر</button>
+    <button class="lang-btn" onclick="toggleLang()">EN / عربي</button>
     <div class="hamburger" id="hamburger" onclick="toggleMenu()">
       <span></span><span></span><span></span>
     </div>
@@ -390,7 +390,7 @@ footer{background:rgba(5,14,31,.97);border-top:1px solid var(--gb);
   <div class="hero-content">
     <div class="hero-badge">وكالة تسويق رقمي متكاملة</div>
     <h1>دعم <span>المشروعات الصغيرة</span> تسويقياً</h1>
-    <p class="hero-desc">نساعدك تبني حضور رقمي قوي من الصفر — نحلل سوقك ومنافسيك ونقدم خطة تسويقية مدروسة تخلي مشروعك ينطلق بثقة.</p>
+    <p class="hero-desc">نساعدك تبني حضور رقمي قوي من الصفر — نحلل سوقك ومنافسيك ونقدم خطة تسويقية مدروسة تجعل مشروعك ينطلق بثقة.</p>
     <div class="hero-btns">
       <a href="#contact" class="btn-primary">ابدأ مشروعك الآن ←</a>
       <a href="#services" class="btn-secondary">اعرف خدماتنا</a>
@@ -523,8 +523,8 @@ footer{background:rgba(5,14,31,.97);border-top:1px solid var(--gb);
       <button class="user-type" onclick="setType(this)">مدير</button>
       <button class="user-type" onclick="setType(this)">شركة</button>
     </div>
-    <div class="form-group"><label>اسم المستخدم</label><input type="text" placeholder="أدخل اسم المستخدم" id="loginUser"></div>
-    <div class="form-group"><label>كلمة المرور</label><input type="password" placeholder="أدخل كلمة المرور" id="loginPass"></div>
+    <div class="form-group"><label>اسم المستخدم</label><input type="text" placeholder="ادخل اسم المستخدم" id="loginUser"></div>
+    <div class="form-group"><label>كلمة المرور</label><input type="password" placeholder="ادخل كلمة المرور" id="loginPass"></div>
     <button class="btn-primary" style="width:100%;margin-top:.4rem" onclick="handleLogin()">دخول</button>
     <div class="success-msg" id="loginSuccess">✅ تم تسجيل الدخول بنجاح!</div>
   </div>
@@ -539,8 +539,8 @@ footer{background:rgba(5,14,31,.97);border-top:1px solid var(--gb);
   </div>
   <div class="contact-grid">
     <div class="contact-info reveal">
-      <h3>احنا هنا عشانك 👋</h3>
-      <p>مش مجرد وكالة إعلانية — احنا شريك نجاحك. بنحلل مشروعك الأول عشان نقدم خطة تسويقية تناسبك بالظبط.</p>
+      <h3>إحنا هنا عشانك 👋</h3>
+      <p>لسنا مجرد وكالة إعلانية.. نحن شريك نجاحك. نحلل مشروعك ونكون العون لك في التوسع الرقمي باستراتيجيات مدروسة.</p>
       <div class="contact-item"><span class="contact-item-icon">📧</span><span class="contact-item-text">info@eglaunch.com</span></div>
       <div class="contact-item"><span class="contact-item-icon">📱</span><span class="contact-item-text">01000000000+</span></div>
       <div class="contact-item"><span class="contact-item-icon">📍</span><span class="contact-item-text">القاهرة، مصر</span></div>
@@ -785,7 +785,7 @@ function scene0(t){
   /* badge */
   const bA2=E.o3(seg(p,.52,.3))*(1-fOut);
   pill(VW/2,VH/2+88,190,30,'rgba(245,158,11,.1)','rgba(245,158,11,.35)',bA2);
-  T('وكالة تسويق رقمي متكاملة ✦',VW/2,VH/2+88,{sz:12,col:K.amber,a:bA2});
+  T('وكالة تسويق رقمي متكاملة',VW/2,VH/2+88,{sz:12,col:K.amber,a:bA2});
 
   /* orbit dots */
   for(let i=0;i<8;i++){
